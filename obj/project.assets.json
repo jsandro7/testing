@@ -664,28 +664,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juric\\.nuget\\packages\\": {},
+    "C:\\Users\\jursa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\juric\\Documents\\test2\\test2.csproj",
+      "projectUniqueName": "c:\\C# Class\\testing\\test2.csproj",
       "projectName": "test2",
-      "projectPath": "c:\\Users\\juric\\Documents\\test2\\test2.csproj",
-      "packagesPath": "C:\\Users\\juric\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\juric\\Documents\\test2\\obj\\",
+      "projectPath": "c:\\C# Class\\testing\\test2.csproj",
+      "packagesPath": "C:\\Users\\jursa\\.nuget\\packages\\",
+      "outputPath": "c:\\C# Class\\testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\juric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jursa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
