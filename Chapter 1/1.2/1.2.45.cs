@@ -11,23 +11,13 @@ namespace test2
 
     //     public static void Main()
     //     {
-    //         CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-    //         CancellationToken token = cancellationTokenSource.Token;
-
-    //         Task task = Task.Run(() =>
+    //        Task longRunning = Task.Run(() =>
     //         {
-    //             while(!token.IsCancellationRequested)
-    //             {
-    //                 Console.Write("*");
-    //                 Thread.Sleep(1000);
-    //             }
-
-    //             token.ThrowIfCancellationRequested();
-
-    //         }, token).ContinueWith((t) => {
-    //             t.Exception.Handle((e) => true);
-    //             Console.WriteLine("You have canceled the task");
-    //         }, TaskContinuationOptions.OnlyOnCanceled);
+    //             Thread.Sleep(10000);
+    //         });
+    //     int index = Task.WaitAny(new[] { longRunning }, 1000);
+    //     if (index == -1)
+    //         Console.WriteLine("Task timed out");
     //     }
     // }
 }
