@@ -9,7 +9,7 @@ namespace test2
     // {    
     //     public static void Main()
     //     {
-    //         GetValue(true);
+    //         GetValue(p: true);
     //     } 
     //     private static int GetValue(bool p)
     //     {
