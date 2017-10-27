@@ -8,6 +8,7 @@ namespace test2
     // {           
     //     public static void Main()
     //     {
+               //Explicitly casting a base type to a derived type
     //         Object stream = new MemoryStream();
     //         MemoryStream memoryStream = (MemoryStream)stream;
     //     }
