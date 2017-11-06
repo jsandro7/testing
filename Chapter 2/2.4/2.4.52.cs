@@ -3,6 +3,11 @@
 // using System.Linq;
 
 
+/* Liskov substitution principle is violated */
+
+/* The Liskov substitution principle states that a subclass should be usable in each place you
+    can use one of the base classes */
+
 //     public static class Program
 //     {           
 //         public static void Main()

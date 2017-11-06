@@ -9,9 +9,12 @@
 //         public static void Main()
 //         {
 //             Base b = new Base();
+            
 //             b.Execute();
-//             b = new Derived();
-//             b.Execute();
+//             Derived a = new Derived();
+//             a.Execute();
+
+            
 //         }
 //     } 
 

@@ -11,9 +11,11 @@
 //         }
 //     }
 
-//   public interface IDisposable
+//     [Serializable]
+//     class Person
 //     {
-//         void Dispose();
+//         public string FirstName { get; set; }
+//         public string LastName { get; set; }
 //     }
 
 

@@ -5,9 +5,12 @@
 //     public static class Program
 //     {           
 //         public static void Main()
-//         {
-//             ReadAndWriteImplementation imp = new ReadAndWriteImplementation();
-//             int test = imp.Value;
+//         {           
+//             IReadOnlyInterface imp1 = new ReadAndWriteImplementation();
+//             int test = imp1.Value;
+
+//             ReadAndWriteImplementation imp2 = new ReadAndWriteImplementation();
+//             imp2.Value = 2;
 //         }
 //     } 
 //     interface IReadOnlyInterface

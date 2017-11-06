@@ -17,15 +17,23 @@
 //             orders.Sort();               
 //         }
 //     }
+
 //     //Standard .NET interface
 //     class Order : IComparable
 //     {
 //         public DateTime Created { get; set; }
+
+//         /// less than 0 means current instance precedes the object
+//         /// 0 means current instance is in same position as the object
+//         /// greater then 0 means current instance follows the objects 
 //         public int CompareTo(object obj)
 //         {
 //             if (obj == null) return 1;
 
 //             Order o = obj as Order;
+
+//             /*Alternative syntax */
+//             //var o =  Convert.ChangeType(obj, obj.GetType());
 
 //             if (o == null)
 //             {

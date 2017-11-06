@@ -26,8 +26,8 @@
 //    class Order : IEntity
 //     {
 //         public int Id { get; }
-//         // Other implementation details omitted
-//         // …
+//         Other implementation details omitted
+//         …
 //     }
 
 //     class OrderRepository : Repository<Order>
@@ -37,7 +37,7 @@
 //         public IEnumerable<Order> FilterOrdersOnAmount(decimal amount)
 //         {
 //             List<Order> result = null;
-//             // Some filtering code
+//             Some filtering code
 //             return result;
 //         }
 //     }

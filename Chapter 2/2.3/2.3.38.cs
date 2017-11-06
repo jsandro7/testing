@@ -17,6 +17,6 @@
 
 //     public interface IObjectContextAdapter
 //     {
-//         ObjectContext ObjectContext { get; }
+//         ObjectContext ObjectContext { get;}
 //     }
-// }
+// // }
