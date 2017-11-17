@@ -4,14 +4,32 @@
 //     {
 //         public static void Main()
 //         {
-            
+//             var s = new SomeType();
+//             s = null;
+           
+//             // var t = new Test();
+
+//             // t.testMe();
+                       
+//             GC.Collect();
+//         }
+
+        
+//         public class Test
+//         {
+//             public void testMe()
+//             {
+//                 var s = new SomeType();
+//             }
 //         }
 
 //         public class SomeType
 //             {
 //             ~SomeType()
 //             {
-//             // This code is called when the finalize method executes
+//                 Console.WriteLine("Finalizer Executed");
 //             }
 //         }
 //     }
+
+   
