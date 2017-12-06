@@ -1,16 +1,19 @@
-//using System;
-//using System.Text;
-//public static class Program
-//{
+// using System;
+// using System.Text;
+// public static class Program
+// {
 //    public static void Main()
 //    {
-//        int i = 5;
+//       string a = "test";
+//       string b = " Me";
 
-//        double d = 2.66666;
+//       int i = 1;
+//       int x = 2; 
 
-//        float v = (float)( i / d);
-        
+//       var result = a + b;
+
+//       var result2 = i + x;
 //    }
 
 
-//}
+// }

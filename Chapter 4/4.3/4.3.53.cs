@@ -1,7 +1,5 @@
-﻿// using System;
-// using System.Xml;
+﻿
 // using System.Linq;
-// using System.Collections.Generic;
 
 // public class MyClass
 // {
@@ -13,6 +11,6 @@
 //             LastName = "Doe"
 //         };
 
-//         Console.WriteLine(person.GetType().Name); // Displays “<>f__AnonymousType0`2”Sta
+//        // Console.WriteLine(person.GetType().Name); // Displays “<>f__AnonymousType0`2”Sta
 //     }
 // }
