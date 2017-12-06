@@ -8,10 +8,10 @@
 // {
 //     public static void Main(string[] args)
 //     {
-//        ExecuteMultipleRequestsInParallel();
+//       var t = ExecuteMultipleRequestsInParallel();
 //     }
 
-//    public async Task ExecuteMultipleRequestsInParallel()
+//    public static async Task ExecuteMultipleRequestsInParallel()
 //     {
 //         HttpClient client = new HttpClient();
 //         Task microsoft = client.GetStringAsync("http://www.microsoft.com");

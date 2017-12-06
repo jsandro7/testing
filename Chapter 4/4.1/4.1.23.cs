@@ -7,7 +7,7 @@
 // {
 //     public static void Main(string[] args)
 //     {
-//        CreateAndWriteAsyncToFile();
+//        var t = CreateAndWriteAsyncToFile();
 //     }
 
 //     public static async Task CreateAndWriteAsyncToFile()
